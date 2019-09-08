@@ -1,0 +1,31 @@
+{
+  "name": "UserContest",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "contestId": {
+      "type": "number",
+      "required": true
+    },
+    "currentQuestion": {
+      "type": "number"
+    },
+    "score": {
+      "type": "number"
+    },
+    "time": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
